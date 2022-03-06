@@ -31,3 +31,24 @@
       background-size: cover;
       color:slateblue;
     }
+    #display,#gender,input{
+        text-align: left;
+        }
+        label{
+        padding: 5px
+        }
+        .row{
+        font-family: 'Fugaz One', cursive; 
+          }
+          h2{
+           text-align: center;
+           font-size: 40px;  
+           text-shadow: 2px 2px 5px grey; 
+           color:black;
+          }
+          h1{
+              text-align: center;
+              text-decoration: underline;
+              font-weight: bold;
+        
+          }
