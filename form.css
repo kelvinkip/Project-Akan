@@ -1,4 +1,8 @@
-.form row{ 
+body{
+    background-color: grey;
+    }
+
+.form-raw{ 
     background-color:black;
     padding: 20px;
     padding-left: 80px;
@@ -6,7 +10,7 @@
     margin-top: 50px;
     height: 200px;
     width: 1000px;
-    /* margin-left: 200px; */
+    margin-left: 200px;
           
     }
     .btn{
@@ -21,7 +25,7 @@
         width: 30%;
         background-color: transparent;
         border-radius: 10px;
-        color: white;
+        color: black;
         height: 20%;
       }
     
@@ -90,5 +94,29 @@
             padding-top: 10px;
             color: blue;
             font-size: 20px;
+            
             margin-top: 90px;  
+        }
+     label{
+         color: black;
+        }
+        option{
+            color: black;
+        }
+        /* .form-group{
+            border: 2px solid black;
+            width: 350px;
+            margin-left: 350px;
+        } */
+        .container5{
+            margin-left: 550px;
+            border: 2px solid blue;
+            width: 700px;
+            text-align: center;
+            margin-top: 350px;
+            height: 40vh;
+            padding-top: 120px;
+            background-image: url("gender.jpg");
+            background-repeat: no-repeat;
+            object-fit: cover;
         }
