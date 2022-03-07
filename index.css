@@ -42,6 +42,7 @@ color: white;
 }
 .names{
     text-align: center;
+    font-size: 30px;
 }
 #Female li{
     font-size: 20px;
@@ -56,3 +57,7 @@ color: white;
     text-align: center;
 
 } 
+.container2 h3{
+    color: red;
+    font-size: 20px;
+}

@@ -124,3 +124,11 @@ body{
             font-size: 20px;
             color: brown;
         }
+        .btn3{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            width: 220px;
+            margin-left: 300px;
+            border-radius: 10px;
+        }
