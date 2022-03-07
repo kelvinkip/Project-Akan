@@ -21,4 +21,25 @@ function akanNames(){
     var gender=document.getElementById("gender").value;
     var daysOfWeek=["Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     var dOfWeek = Math.round(dayOfTheWeek)
+     //form validation and output
+     if(!isNaN(dOfWeek)){
+        if(gender=="Male"){
+            document.getElementById("display").innerHTML= "Your akan names is"+ maleNames[Math.round(dayOfTheWeek)]+" and you were born on "+ daysOfWeek[dOfWeek];
+        }
+        else if(gender==="Female"){
+            document.getElementById("display").innerHTML="You were born on "+daysOfWeek[dOfWeek]+ " and Your akan name is " + femaleNames[Math.round(dayOfTheWeek)];
+        }else{
+            alert("Enter valid dates and choose your gender");
+            document.getElementById("display").innerHTML="";
+        }
+    }
+            else{
+                alert("Enter valid birthday and choose your gender");
+                document.getElementById("display").innerHTML="";
+            }
+    
+    
+    //call to the reFresh function
+    formRefresh();
+}
  
